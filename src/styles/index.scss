@@ -1,0 +1,15 @@
+@import './reset.scss';
+
+//滚动条外观
+::-webkit-scrollbar {
+    width: 15px;
+   
+}
+::-webkit-scrollbar-track{
+    background: #001529;
+}
+::-webkit-scrollbar-thumb{
+    background: yellowgreen;
+    width: 15px;
+    border-radius: 10px;
+}
